@@ -7,63 +7,72 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-        <img src="images/sabrina-square.jpg" class="img-circle" />
-        <h1>Sabrina John</h1>
-        <h2>Programmer</h2
-        <p>I am currently learning to code at Le Wagon Barcelona. I know <strong>Ruby, HTML, CSS< Javascript, etc.</strong></p>
-        <a href="#" target="_blank" class="btn-pink">Contact Me</a>
-      </div>
-      <div class="card social-media">
-        <ul class="list-icons">
-          <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li
-          <li><a href="http://www.instagram.com/sabrinajayy" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-          <li><a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-      <div class="card">
-        <h2>My Favourite Movies</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td class="table-img">
-                <img src="images/dark-knight.jpg" class="img-movie" alt="The Dark Knight Movie" />
-              </td>
-              <td class="movie-description">
-                <h3>The Dark Knight</h3>
-                <p>When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.</p>
-              </td>
-            </tr>
-            <tr>
-              <td class="table-img">
-                <img src="images/goodfellas.jpg" class="img-movie" alt="Goodfellas Movie" />
-              </td>
-              <td class="movie-description">
-                <h3>Goodfellas</h3>
-                <p>The story of Henry Hill and his life through the teen years into the years of mafia, covering his relationship with his wife Karen Hill and his Mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.</p>
-              </td>
-            </tr>
-            <tr>
-              <td class="table-img">
-                <img src="images/the-departed.jpg" class="img-movie" alt="The Departed Movie" />
-              </td>
-              <td class="movie-description">
-                <h3>The Departed</h3>
-                <p>An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+   <div id="sidebar">
+      <ul id="nav-bar">
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#fave-movies">Fave Movies</a></li>
+      </ul>
     </div>
-     <div id="footer">
-        <p>This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.</p>
-        <ul class="list-icons">
-          <li><a href="#" target="_blank"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-share" aria-hidden="true"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-        </ul>
+    <div id="page-content">
+      <div class="container">
+        <div id="about" class="card">
+          <img src="images/sabrina-square.jpg" class="img-circle" />
+          <h1>Sabrina John</h1>
+          <h2>Programmer</h2
+          <p>I am currently learning to code at Le Wagon Barcelona. I know <strong>Ruby, HTML, CSS< Javascript, etc.</strong></p>
+          <a href="#" target="_blank" class="btn-pink">Contact Me</a>
+        </div>
+        <div id="contact" class="card social-media">
+          <ul class="list-icons">
+            <li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li
+            <li><a href="http://www.instagram.com/sabrinajayy" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+        <div id="fave-movies" class="card">
+          <h2>My Favourite Movies</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td class="table-img">
+                  <img src="images/dark-knight.jpg" class="img-movie" alt="The Dark Knight Movie" />
+                </td>
+                <td class="movie-description">
+                  <h3>The Dark Knight</h3>
+                  <p>When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-img">
+                  <img src="images/goodfellas.jpg" class="img-movie" alt="Goodfellas Movie" />
+                </td>
+                <td class="movie-description">
+                  <h3>Goodfellas</h3>
+                  <p>The story of Henry Hill and his life through the teen years into the years of mafia, covering his relationship with his wife Karen Hill and his Mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="table-img">
+                  <img src="images/the-departed.jpg" class="img-movie" alt="The Departed Movie" />
+                </td>
+                <td class="movie-description">
+                  <h3>The Departed</h3>
+                  <p>An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+       <div id="footer">
+          <p>This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.</p>
+          <ul class="list-icons">
+            <li><a href="#" target="_blank"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-share" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
       </div>
   </body>
 </html>
